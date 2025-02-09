@@ -1,0 +1,10 @@
+spring:
+    batch:
+        initialize-schema: always
+        job:
+            enabled: true
+    datasource:
+        url: jdbc:he:mem:testdb
+        driver-class-name: org.h2.driver
+        username: sa
+        password: 
